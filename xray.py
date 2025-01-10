@@ -7,26 +7,13 @@ from phi.model.google import Gemini
 import streamlit as st
 from phi.tools.duckduckgo import DuckDuckGo
 
-# Function to demonstrate inspect.signature (example)
-# def example_function(a, b, c=3):
-#     pass
-
-# Inspect function signature (example)
-# sig = inspect.signature(example_function)
-# for name, param in sig.parameters.items():
-#     print(f"Parameter: {name}, Default: {param.default}")
-
 # Streamlit session state for API key
 if "GOOGLE_API_KEY" not in st.session_state:
     st.session_state.GOOGLE_API_KEY = None
 
 # Sidebar configuration
 with st.sidebar:
-    # st.image("static/iffort blue logo.png", 
-    # # use_container_width=True, 
-    # width=150)
     st.image("static/iffort blue logo.png", 
-    # use_container_width=True, 
     width=150)
     st.title("ℹ️ Configuration")
     
