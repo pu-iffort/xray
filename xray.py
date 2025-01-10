@@ -99,8 +99,8 @@ Format your response using clear markdown headers and bullet points. Be concise 
 """
 
 # Streamlit app layout
-st.title("🏥 Medical Imaging Diagnosis Agent")
-st.write("Upload a medical image for professional analysis")
+st.title("Medical Imaging Diagnosis Agent")
+st.write("Upload a medical image for analysis")
 
 # Create containers for better organization
 upload_container = st.container()
